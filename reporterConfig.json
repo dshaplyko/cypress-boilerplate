@@ -1,0 +1,14 @@
+{
+  "reporterEnabled": "cypress-mochawesome-reporter, mocha-junit-reporter",
+  "mochaJunitReporterReporterOptions": {
+    "mochaFile": "cypress/reports/[hash].xml"
+  },
+  "cypressMochawesomeReporterOptions": {
+    "charts": true,
+    "reportPageTitle": "custom-title",
+    "embeddedScreenshots": true,
+    "inlineAssets": true,
+    "saveAllAttempts": false,
+    "json": true
+  }
+}
